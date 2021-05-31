@@ -23,6 +23,6 @@ while principal > 0:
         additional -= overpay
         principal = 0
     total_paid = total_paid + payment + additional
-    print(month, total_paid, principal)
+    print(f'{month:>10d} {total_paid:15.2f} {principal:15.2f}')
 
 print(f"Paid {total_paid} in {month} months.")
